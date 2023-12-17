@@ -1,0 +1,14 @@
+filetype: grepdisplay
+
+detect:
+    filename: "^grepdisplay$"
+
+rules:
+    - todo: "^#.*$"
+    - todo: "^/.*$"
+    - preproc: "[0-9]+\\([0-9]+\\):"    
+#     - symbol: "⇛.*⇚"
+#     - diff-added: "^#.*true$"
+#     - error: "^#.*false$"
+# #    - diff-added: "(?<=^#).*(true)"
+#     - comment: "\\(\\.\\.\\.\\)"
